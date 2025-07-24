@@ -1,0 +1,190 @@
+.whole-page {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace, Avenir, Helvetica, Arial, sans-serif;
+  font-size: calc(10px + 2vmin);
+  font-style: normal;
+  font-weight: 100;
+  justify-content: center;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.app-page {
+  padding-left: 300px;
+  top: 0;
+}
+
+.app-row,
+.container {
+  align-items: center;
+  display: flex;
+}
+
+.app-row {
+  flex-direction: row;
+  gap: 10px 20px;
+  padding-right: 40px;
+}
+
+#top-app-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.card h2 {
+  font-size: 25px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.list {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: hsla(0, 0%, 100%, 0.092);
+  box-shadow: 0 15px 25px hsla(0, 2%, 50%, 0.154);
+  padding: 20px 20px 40px;
+  width: 100vw;
+}
+.card,
+.list {
+  border-radius: 24px;
+  font-size: medium;
+  text-align: center;
+}
+
+.card {
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  background-color: hsla(0, 0%, 100%, 0.1);
+  box-shadow: 0 15px 25px hsla(0, 2%, 50%, 0.2);
+  margin-bottom: 30px;
+  width: 400px;
+  height: 130px;
+}
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.searchFilter {
+  margin-right: 18px;
+}
+
+.genderFilter {
+  margin-right: 10px;
+}
+
+.pet-card-layout {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pet-card {
+  background-color: #234b48;
+  padding-bottom: 20px;
+  padding-right: 2px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  font-size: medium;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 490px;
+  position: relative;
+}
+
+.pet-card img {
+  height: 300px;
+  width: 302.1px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pet-card h3 {
+  margin-top: 2px;
+  margin-bottom: 9px;
+  padding: 0px;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.pet-card h4 {
+  margin-top: 1px;
+  margin-bottom: 11px;
+  padding: 0px;
+  font-size: 19px;
+  font-weight: bolder;
+}
+
+.pet-card-button {
+  position: absolute;
+  margin-top: 40px;
+  left: 50%; /* You can adjust left if needed */
+  transform: translateX(-50%); /* Center the button horizontally */
+  font-size: 14px;
+  background-color: #eedd9e;
+  border-color: rgb(0, 31, 42);
+  border-width: 4px;
+}
+
+.pet-card-button:hover {
+  background-color: rgb(255, 235, 198);
+  border-color: black;
+}
+
+.pet-card-button:active {
+  background-color: rgb(216, 199, 168);
+}
+
+.btn {
+  /* Your button styles */
+  padding: 10px 20px;
+  font-size: 16px;
+  border-width: 4px;
+  background-color: #eedd9e;
+  border-color: #1c3c3a;
+  transition: border 0.3s;
+}
+
+.btn:hover {
+  /* Increase the box-shadow size to create the appearance of a growing inner border */
+  border-color: rgb(191, 177, 151);
+  background-color: rgb(255, 235, 198);
+  box-shadow: 0 0 5px rgb(151, 151, 151);
+}
+
+.btn:active {
+  /* Add a box-shadow on button click (active state) */
+  background-color: rgb(206, 187, 151);
+  transform: translateY(2px);
+}
+
+.btn.disabled {
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(178, 161, 131);
+  background-color: grey; /* Change to the desired grey color */
+  transition: background-color 0.3s ease;
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}

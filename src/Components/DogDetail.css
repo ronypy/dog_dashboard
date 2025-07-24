@@ -1,0 +1,143 @@
+.App-page {
+  padding-left: 320px;
+  top: 0;
+  font-family: monospace, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+}
+.App-row,
+.container {
+  align-items: center;
+  display: flex;
+}
+.App-row {
+  flex-direction: row;
+  width: 1000px;
+}
+.Details {
+  padding: 20px 20px 40px;
+  text-align: left;
+  width: 900px;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: lighter;
+}
+.Chart,
+.Details {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  background-color: hsla(0, 0%, 100%, 0.092);
+  border-radius: 24px;
+  box-shadow: 0 15px 25px hsla(0, 2%, 50%, 0.154);
+}
+.Dog-Name,
+.Dog-Status {
+  text-align: center;
+  font-size: 60px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.Dog-Status {
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+.Dog-Img {
+  border-radius: 20px;
+  border-color: #eedd9e;
+  border-style: solid;
+  border-width: 4px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.Main-Attributes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Main-Attributes h3 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  border-top: 2px solid #eedd9e;
+  border-bottom: 2px solid #eedd9e;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.Main-Attributes h3:last-child {
+  text-align: right;
+}
+
+.Main-Attributes h3:first-child {
+  text-align: left;
+}
+
+.More-Attributes h2 {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.Contact-Info h2 {
+  text-decoration: underline;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.Learn-More {
+  font-weight: 900;
+}
+
+.Learn-More-Button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #eedd9e;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  border-color: black;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Learn-More-Button:hover {
+  background-color: #c2af6a;
+}
+
+.Learn-More-Button:active {
+  background-color: #9c998c;
+}
+
+.Extra-Attributes {
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Extra-Attributes h3 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  border-top: 2px solid #eedd9e;
+  border-bottom: 2px solid #eedd9e;
+  padding: 5px;
+  white-space: nowrap;
+}
+
+.Extra-Attributes h3:last-child {
+  text-align: right;
+}
+
+.Extra-Attributes h3:first-child {
+  text-align: left;
+}
